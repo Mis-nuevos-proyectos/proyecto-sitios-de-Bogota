@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="asset/imagenes/favicoon.ico.png" type="image/x-icon">
+    <title>Mi Bogota</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(132, 174, 192), rgb(141, 153, 207));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: rgb(2, 2, 2);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #8c8ce8;
+        }
+
+        .active {
+            background-color: #1c3e32;
+        }
+
+        h1 {
+            padding: 5px;
+            color: #0b0b0b;
+        }
+
+        input[type=text],
+        input[type=email],
+        textarea,
+        select {
+            width: 100%;
+            padding: 9px 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #32d337;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        div.contenedor-formulario {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 50px;
+        }
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Quieres conocer sitios expectaculares</h1>
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Preferenias.html">Preferencias</a></li>
+            <li><a href="Audiovisuales.html">Audiovisuales</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+        </nav>
+    </header>
+    
+<div class="contenedor-formulario">
+
+    <form>
+        <p>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Escribe aqui tu Nombre" required minlength="4">
+
+        <label for="Apellido">Apellido: </label>
+        <input type="text" id="Apellido" name="Apellido" placeholder="Escribe aqui tu Apellido" required minlength="3">
+
+        <label for="email">Email</label>
+        <input type="email" dir="mail" name="mail" placeholder="Escribe aqui tu mail" required>
+
+        <label for="Pais">Pais: </label>
+        <select name="Pais" id="Pais">
+            <option value="Argentina">Argentina</option>
+            <option value="Colombia">Colombia</option>
+            <option value="España">España</option>
+            <option value="Paraguay">Paraguay</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Ecuador">Ecuador</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Chile">Chile</option>
+        </select>
+        <label for="Comentario">Comentario: </label>
+        <textarea name="Comentario" id="Comentario" placeholder="Escriba tu Comentario"></textarea>
+    <p>
+    <label for="Motivo">Motivo de contacto: </label>
+    <input type="radio" id="Motivo" name="Motivo"><i>Buena expectativa</i>
+    <input type="radio" id="Motivo" name="Motivo"><i>Quiero conocer</i>
+    <input type="radio" id="Motivo" name="Motivo"><i>Disfrutar</i>
+    <input type="radio" id="Motivo" name="Motivo"><i>Buenisimo</i>
+
+    <input type="submit" value="Enviar">
+    </form>
+</div>
+
+   <footer class="footer">
+    <p>Derechos reservados &copy; 2023</p>
+   </footer>
+    
+</body>
+</html>

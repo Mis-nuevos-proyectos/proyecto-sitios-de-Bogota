@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="asset/imagenes/favicoon.ico.png" type="image/x-icon">
+    <title>Mi Bogota</title>
+    
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right,rgb(145, 145, 227), rgb(255, 233, 236));
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #314cd1;
+        }
+
+        h1 {
+            
+            padding: 5px;
+            margin: 0;
+            color: #0a0a0a;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 15px 16px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 5px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <p>
+        <h1>Lo mejor de Bogota</h1>
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="Preferenias.html">Preferencias</a></li>
+            <li><a href="Audiovisuales.html">Audiovisuales</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+        </nav>
+    </header>
+
+    <center><h2><b>Preferencias De Bogota</b></h2>
+    <hr>
+    <div class="container">
+        <table>
+    <colgroup>
+        <col style="background-color: rgb(240, 190, 173);">
+        <col style="background-color: rgb(147, 202, 202);">
+        <col style="background-color: rgb(138, 156, 226);">
+        <col style="background-color: rgb(230, 204, 190);">
+        <col style="background-color: rgb(167, 217, 184);">
+        <col style="background-color: rgb(244, 194, 213);">
+        <col style="background-color: rgb(205, 172, 191);">
+                
+        <th>Disfrutar</th>
+        <th>Lugar</th>
+        <th>Para comer</th>
+        <th>Lugar</th>
+        <th>Actividades</th>
+        <th>Lugar</th>
+        
+        <tr>
+            <td>Parque 93</td>
+            <td>Cra 9 # 70 - 23</td>
+            <td>Divino Pecado</td>
+            <td>Cra 9 # 70 - 23</td>
+            <td>Chronos Fantasy</td>
+            <td>Cra 36 # 63 - 10</td>
+        </tr>
+        <tr>
+            <td>C.C Gran Plaza El Ensueño</td>
+            <td>Calle 59 sur No 51 - 21</td>
+            <td>Smash Burger</td>
+            <td>Calle 140 # 16 a 82</td>
+            <td>Deportes Extremos</td>
+            <td>Vergara-Cundinamarca</td>
+         </tr>
+        <tr>
+            <td>Kyqa Mhuysqa</td>
+            <td>Facatativa - Cundinamarca</td>
+            <td>CiaCasa de Rey</td>
+            <td>Cra 7 No 22 - 09</td>
+            <td>Parque Jaime Duque</td>
+            <td>Tocancipa - Cundinamarca</td>
+        </tr>
+        <tr>
+            <td>Rancho El Faro</td>
+            <td>La Mesa Cundinamarca</td>
+            <td>Cheap Food</td>
+            <td>Cll 10 # 8 - 51</td>
+            <td>Bioparque</td>
+            <td>Cota - Cundinamarca</td>
+        </tr>
+        <tr>
+            <td>Fincas colombia</td>
+            <td>Melgar / Girardot</td>
+            <td>Koalas RB3</td>
+            <td>Cra 15 # 88 - 36</td>
+            <td>Bajo el Cielo</td>
+            <td>Guatavita - Cundinamarca</td>
+        </tr>
+        <tr>
+            <td>Chorro de quevedo</td>
+            <td>Cll 12 B # 22 - 98</td>
+            <td>Foodin </td>
+            <td>Cll 140 # 11 - 45</td>
+            <td>Aventura Extrema</td>
+            <td>Utica - Cundinamarca</td>
+            
+        </tr>
+    </colgroup>
+        </table>
+    </div>
+    
+   <footer class="footer">
+    <p>Derechos reservados &copy; 2023</p>
+   </footer>
+    
+</body>
+</html>
